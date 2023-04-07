@@ -1,0 +1,57 @@
+/* Center the container in the screen */
+.container {
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
+}
+
+/* Center the game board in the container */
+#game {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Center the X and O text in each cell of the game board */
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+/* Center the reset button in the container */
+.reset-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Apply custom styles to the reset button */
+button {
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: lightblue;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Center the #message div in the screen */
+#message {
+  display: none;
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  border: 1px solid black;
+  background: linear-gradient(to bottom, #e6f2ff, #b3d9ff);
+  padding: 20px;
+}
+
+
